@@ -6,7 +6,7 @@ function drow() {
   var STR = $(inputTXT).val(); //取得input值
 
   var strWidth = ctx.measureText(STR).width;
-  strWidth = Math.ceil(strWidth) + 10; //無條件進位
+  strWidth = Math.ceil(strWidth); //無條件進位
 
   var canvas = document.getElementById('canvas');
 
